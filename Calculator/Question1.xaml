@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.Question1"
+             Title="Question 1">
+    <VerticalStackLayout BackgroundColor="WhiteSmoke">
+        <Label Text="Question 1 of 10" TextColor="Red" FontSize="Body"/>
+        <Label Text="What is the sum of 14 and 25 =?" FontSize="Subtitle" HorizontalTextAlignment="Center" TextColor="DarkGreen"/>
+        <Grid Padding="16" RowSpacing="2" ColumnSpacing="2"
+          RowDefinitions="*,*,*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*" >
+            <Button Text="29" Grid.Row="2" Grid.Column="0" Clicked="WrongClicked" />
+        <Button Text="39" Grid.Row="2" Grid.Column="1" Clicked="AnsClicked" />
+            <Button Text="38" Grid.Row="3" Grid.Column="0" Clicked="WrongClicked"/>
+            <Button Text="49" Grid.Row="3" Grid.Column="1" Clicked="WrongClicked"/>
+            <Button Text="Next >" Clicked="NextClicked" Grid.Row="6" Grid.Column="4" TextColor="White" BorderWidth="2" BorderColor="Black" Background="Green"/>
+
+        </Grid>
+            <!--<Label  Text="Right Answer, Click Next to Answer next Question" IsVisible="_showText" />-->
+
+    </VerticalStackLayout>
+    
+    <!--<VerticalStackLayout>
+        <Label 
+            Text="What is the sum of 14 and 25 =? " />
+
+        <Grid Padding="16" RowSpacing="2" ColumnSpacing="2"
+          RowDefinitions="*,*"
+          ColumnDefinitions="*,*,*,*">
+            <Button Text="29" Grid.Row="1" Grid.Column="0" />
+            <Button Text="39" Grid.Row="1" Grid.Column="1" Clicked="AnsClicked" />
+            <Button Text="38" Grid.Row="1" Grid.Column="2"
+              />
+        </Grid>
+    </VerticalStackLayout>-->
+</ContentPage>
