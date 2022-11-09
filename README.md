@@ -16,6 +16,4 @@ This basic calculator demonstrates using span and spacing features of a Grid lay
 
 For more information, see the [Grid documentation](https://docs.microsoft.com/dotnet/maui/user-interface/layouts/grid).
 
-![Calculator Mac application screenshot](images/macos.png "Calculator application screenshot")
-
-![Calculator iOS application screenshot](images/ios.png "Calculator application screenshot")
+![sc1](https://user-images.githubusercontent.com/115049613/200741023-711278e8-f4fa-4595-941c-36a7bd0465b6.jpeg)
