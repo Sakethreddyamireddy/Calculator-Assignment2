@@ -21,7 +21,7 @@
     </VerticalStackLayout>
     
     <!--<VerticalStackLayout>
-        <Label 
+        <Label s
             Text="What is the sum of 14 and 25 =? " />
 
         <Grid Padding="16" RowSpacing="2" ColumnSpacing="2"
